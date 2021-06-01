@@ -1,3 +1,5 @@
+package hw.day11;
+
 public class Person {
     private String firstName;
     private String lastName;
@@ -11,7 +13,7 @@ public class Person {
     public String getFullName() {
         String first = (this.firstName != null) ? this.firstName : "?";
         String last = (this.lastName != null) ? this.lastName : "?";
-        return first + last;
+        return first + ' ' + last;
     }
     public String getFirstName() {
         return this.firstName;
