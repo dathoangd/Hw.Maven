@@ -44,8 +44,6 @@ public class TestPerson extends TestCase {
         int b = 100;
         assertFalse(a==b);
       //  assertTrue(a==b);
-
-
     }
     @After
      public void afterTest(){
